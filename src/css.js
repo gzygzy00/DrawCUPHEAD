@@ -1,6 +1,8 @@
 const style = `/*
 * 画一个cuphead的角色：
-* 先铺上背景，画上茶杯的轮廓
+* 先铺上背景，画上茶杯的轮廓；
+* 上半部分暂停或者结束后可以上下滚动；
+* 下半部分移动端显示不下可以左右滑动；
 */
 
 .cuphead {
@@ -24,7 +26,7 @@ const style = `/*
 }
 
 /*
-* 脸已经画好，加上五官👀
+* 脸已经画好，加上五官👀；
 */
 
 .nose {
@@ -116,7 +118,7 @@ const style = `/*
 }
 
 /*
-* 嘴巴做的有点复杂，还可以改的更好
+* 嘴巴做的有点复杂，还可以改的更好；
 */
 .mouth {
   /*border: 3px solid rosybrown;*/
@@ -132,7 +134,7 @@ const style = `/*
   border: 4px solid #1d1b1d;
   border-radius: 0px 0px 0px 50px;
   position: absolute;
-  top: 51%;
+  top: 50%;
   left: 30%;
   width: 50px;
   height: 50px;
@@ -144,7 +146,7 @@ const style = `/*
   border: 3px solid #1d1b1d;
   position: absolute;
   top: 50%;
-  left: 55%;
+  left: 54%;
   width: 50px;
   height: 50px;
   background-color: #1d1b1d;
@@ -155,7 +157,7 @@ const style = `/*
   border-radius: 0px 25px 25px 0px;
   position: absolute;
   top: 50%;
-  left: 80%;
+  left: 71%;
   width: 50px;
   height: 50px;
   background-color: #1d1b1d;
@@ -187,7 +189,7 @@ const style = `/*
   /*border: 1px solid green;*/
   border-top-left-radius: 5px;
   position: absolute;
-  top: 33%;
+  top: 34%;
   left: 45%;
   width: 77px;
   height: 30px;
@@ -223,14 +225,14 @@ const style = `/*
   width: 40px;
   height: 35px;
   position: absolute;
-  top: 30%;
+  top: 27%;
   left: -35%;
   background-color: #db4227;
   z-index: 1;
 }
 
 /*
-* 最后插上吸管
+* 最后插上吸管；
 */
 .straw-bottom {
   border: 5px solid #1d1b1d;
